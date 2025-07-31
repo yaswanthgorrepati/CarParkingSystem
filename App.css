@@ -1,0 +1,84 @@
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px;
+    align-items: center;
+}
+
+.logoImg {
+    width: 100px;
+}
+
+.navItems {
+    display: flex;
+}
+
+.navItems li {
+    margin: 0 5px;
+    padding: 0 5px;
+    list-style-type: none;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parkingLot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 10px 0 0;
+    width: 50%;
+
+}
+
+.parkingSpot {
+    width: 150px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+
+    display: flex;
+    justify-content: center;
+    /* horizontal center */
+    align-items: center;
+    /* vertical center */
+
+    font-size: 18px;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.vehicleParkingForm {
+    margin: 5px 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.occupied {
+    border: 5px solid red;
+}
+
+.notOccupied {
+    border: 5px solid green;
+
+}

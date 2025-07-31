@@ -1,0 +1,19 @@
+{
+  "name": "carparkingsystem",
+  "version": "1.0.0",
+  "description": "car parking system",
+  "scripts": {
+    "start":"parcel index.html",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
