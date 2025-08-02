@@ -7,6 +7,7 @@ import VehicleParkingForm from "./VehicleParkingForm";
 import parkingLotContext from "../utils/parkingLotContext";
 import { useEffect, useState } from "react";
 import { TWO_WHEELER, FOUR_WHEELER } from "../utils/constants";
+import UnparkVehicle from "./UnparkVehicle";
 
 const App = () => {
   const [parkingLotInfo, setParkingLotInfo] = useState([]);
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
       {
         path: "/vehicleForm",
         element: <VehicleParkingForm />,
+      },
+      {
+        path: "/unparkVehicle",
+        element: <UnparkVehicle />,
       },
     ],
   },

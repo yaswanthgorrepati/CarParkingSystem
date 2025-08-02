@@ -7,9 +7,13 @@ const Header = () => {
         <img
           className="logoImg"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA0spjtAPTUSInbJecfaSbTAYw99EoklAEDA&s"
+          alt="ParkingLogo"
         ></img>
       </div>
-      <h1 className="">Parking Lot</h1>
+
+      <div className="titleWrapper">
+        <h1 className="title">Parking Lot</h1>
+      </div>
       <div>
         <ul className="navItems">
           <li>
@@ -18,8 +22,12 @@ const Header = () => {
           <li>
             <Link to="/vehicleForm">Park Vehicle</Link>
           </li>
-          <li>UnPark Vehicle</li>
-          <li>Admin: {"test"}</li>
+          <li>
+            <Link to="/unparkVehicle">UnPark Vehicle</Link>
+          </li>
+          <li className="admin">
+            Admin: <strong>{"test"}</strong>
+          </li>
         </ul>
       </div>
     </div>
