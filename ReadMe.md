@@ -1,28 +1,20 @@
-# dependencies
-  npm install react
-  npm install react-dom
-  npm install -D parcel
-  npm install react-router-dom
+# 🚗 Project
+ This is a visual representation of a parking lot. An admin can enter vehicle details and allocate a parking spot.
 
-# Learnings
-1. modifying the context object directly and then calling the usestate and got the corrupt data.
+The admin can also collect payments and free the vehicle from the parking spot.
 
-      setParkingLotInfo((oldData) =>
-        oldData.map((pso) => {
-          if (pso.id === parkingSpot.id) {
-            return {
-              ...pso,
-              isOccupied: true,
-              vehicleDetails: {
-                vehicleNumber: vehicleForm.vehicleNumber,
-                ownerName: vehicleForm.ownerName,
-                vehicleType: vehicleForm.vechileType,
-                inTime: new Date().toISOString(),
-              },
-            };
-          }
-          return pso;
-        })
-      );
+I have used React to implement this application.
 
-  earlier with out spread object is modified direclty.
+# 📚 Learnings
+- Gained a clear understanding of object spreading in JavaScript.
+
+- Got hands-on experience with useState, React Context, and template literals.
+
+- Used React Router DOM and understood the logical flow of route management.
+
+# 🛠️ Tech Stack
+- JavaScript
+- React
+- React Router DOM
+- React Context API
+- CSS
